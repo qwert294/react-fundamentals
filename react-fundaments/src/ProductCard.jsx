@@ -1,11 +1,11 @@
-function ProductCard({rename , oldprice , isAvailable}){
+function ProductCard(p){
 
 
     return(
         <>
-        <p>productname:  {rename}</p>
-        <p>price:   {oldprice}</p>
-        <p>status {isAvailable}</p>
+        <p>productname:  {p.rename}</p>
+        <p>price:   {p.oldprice}</p>
+        <p>status {p.isAvailable}</p>
         </>
     )
 }
