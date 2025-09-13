@@ -1,12 +1,12 @@
-function ProductCard(psf){
+function ProductCard(p){
 
 
     return(
-        <>
-        {/* <p>productname:  {p.rename}</p>
-        <p>price:   {p.oldprice}</p>
-        <p>status {p.isAvailable}</p> */}
-        </>
+        <div className="container">
+            <p>{p.productName}</p>
+            <p>{p.price}</p>
+            <p>{p.isAvailable===true?"yes":"no"}</p>
+    </div>
     )
 }
 export default ProductCard;

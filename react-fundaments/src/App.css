@@ -1,6 +1,7 @@
 .aplicant{
     display:flex;
-        align-items:"center";
-
-    justify-content:"center";
+    justify-content: center;
+    border: 10px solid purple;
+    margin:20px;
+    border-radius: 10%;
 }
