@@ -1,11 +1,11 @@
-function ProductCard(p){
+function ProductCard(psf){
 
 
     return(
         <>
-        <p>productname:  {p.rename}</p>
+        {/* <p>productname:  {p.rename}</p>
         <p>price:   {p.oldprice}</p>
-        <p>status {p.isAvailable}</p>
+        <p>status {p.isAvailable}</p> */}
         </>
     )
 }

@@ -1,0 +1,21 @@
+.name{
+    font-style:"italic;";
+    font-size:40px;
+    color:red;
+
+}
+.container{
+    padding-left:40px;
+    padding-bottom:40px;
+    border:2px solid grey;
+    text-align:"center";
+    font-size:25px;
+    border-radius:10px;
+    padding:20px;
+
+}
+.img{
+    padding:5px;
+    width:250px;
+    height:300px;
+}
